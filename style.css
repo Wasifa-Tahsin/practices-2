@@ -1,7 +1,8 @@
 ul{position: relative;
-    margin: 0;
+    margin: 0 ;
     padding: 0;
-    height: 40px;
+    
+    /* height: 40px; */
     /* background-color: burlywood; */
 
 }
@@ -11,6 +12,10 @@ ul li{
     border-right: 1px solid#fff;
     background-color: lightseagreen;
     border-radius: 5px;
+    
+}
+.dropdown-menu{
+    text-align: center;
 }
 ul li :hover{
     background-color:lightsalmon;
@@ -31,7 +36,7 @@ ul li ul{
     
 }
 ul li ul li{
-    clear: both;
+   clear: both;
     width: 100%;
     border-bottom: 1px solid #fff;
 
