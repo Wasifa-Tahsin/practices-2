@@ -9,14 +9,12 @@ ul{position: relative;
 ul li{
     list-style-type: none;
     float: left;
-    border-right: 1px solid#fff;
+    /* border-right: 1px solid#fff; */
     background-color: lightseagreen;
     border-radius: 5px;
     
 }
-.dropdown-menu{
-    text-align: center;
-}
+
 ul li :hover{
     background-color:lightsalmon;
 }
